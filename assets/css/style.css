@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap'     );
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato', sans-serif;
+}
+
+body {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+header .navbar {
+    display: flex;
+    align-items: center;
+    max-width: 1200PX;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+
+.navbar .logo {
+    color: #ffffff;
+    padding: 10px 13px;
+    font-size: 2.1rem;
+    font-weight: 600;
+    font-family: "Dancing Script", serif;
+}
+
+.navbar .logo:hover {
+    color: #e9e4e3;
+    transform: scale(1.05);
+    border-radius: 10px;
+}
+
+ .logo {
+    background:
+    linear-gradient(currentColor 0 0) var(--p, 100%) 0,
+    linear-gradient(currentColor 0 0) 0 var(--d, 0),
+    linear-gradient(currentColor 0 0) var(--d, 0) 100%,
+    linear-gradient(currentColor 0 0) 100% var(--p, 100%);
+  background-size: var(--d, 0) 3px, 3px var(--d, 0);
+  background-repeat: no-repeat;
+  transition: 0.5s, background-position 0s 0.5s ease-out;
+}
+
+.logo:hover {
+    --d: 100%;
+  --p: 0%
+}
+
+
+.menu-links .menu-button {
+    color: #f7eeee;
+    text-decoration: none;
+    font-family: "Dancing Script", serif;
+}
+
+.menu-links .btn {
+    background: rgba(64, 27, 15, 0.804);
+    color: #fff;
+    font-family: "Dancing Script", serif;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    cursor: pointer;
+}
+
+.menu-links .btn:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+
+.menu-links .btn:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+}
+
+
+.hero-section {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.hero-section .contents {
+    color:#ffffff;
+    max-width: 1200PX;
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Dancing Script", serif;
+}
+
+.hero-section .contents h1{
+    font-size: 3.5rem;
+    max-width: 650px;
+    font-family: "Dancing Script", serif;
+}
+
+.hero-section .contents p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 15px;
+    max-width: 600px;
+}
+
+.hero-section .contents p {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.hero-section .contents p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0);
+    transition: background 0.3s ease, backdrop-filter 0.3s ease;
+    z-index: -1;
+}
+
+.hero-section .contents p:hover::before {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}

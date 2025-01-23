@@ -65,7 +65,6 @@ The Fundamentals of Web Design project focuses on creating visually appealing an
 
 ### Key Components
 <!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
 - MultiPage Website/Single Page Website
 - Parallax transition
 - Transactional

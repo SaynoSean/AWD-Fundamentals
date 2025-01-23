@@ -4,9 +4,9 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/SaynoSean/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img//360_F_325321366_f6lXAcbES9sc33B8pdldNaXPeZZ9rhPN (1).jpg360_F_325321366_f6lXAcbES9sc33B8pdldNaXPeZZ9rhPN (1).jpg" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Title</h3>
@@ -20,9 +20,9 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=SaynoSean/WD-Template-Project)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+[![wakatime](https://wakatime.com/badge/user/9c7b319f-0a4f-4bf8-b099-f9f3aec27c02/project/348c7a34-232e-410e-b7ba-36c85aee7789.svg)](https://wakatime.com/badge/user/9c7b319f-0a4f-4bf8-b099-f9f3aec27c02/project/348c7a34-232e-410e-b7ba-36c85aee7789)
 
 ---
 
@@ -61,11 +61,7 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+The Fundamentals of Web Design project focuses on creating visually appealing and user-friendly websites by integrating essential design principles, layout techniques, and responsive design. Key components include HTML, CSS, and JavaScript, which are utilized to structure content, style pages, and enhance interactivity, ensuring an optimal user experience across various devices.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -119,4 +115,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Github | Projects | http://github.com/SaynoSean |
+| Google | Photos,Fonts | google.com |

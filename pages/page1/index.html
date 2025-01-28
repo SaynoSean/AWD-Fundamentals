@@ -3,52 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundamentals</title>
+    <title>Programming Fundamentals</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header class="header">
-        <nav>
-            <button class="nav-button">
-                <a href="../../index.html" class="button">Homepage</a>
-            </button>
-            <button class="nav-button">
-                <a href="../../pages/page1/index.html" class="button">Fundamentals</a>
-            </button>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Sayno</div>
+                <div class="menu-links">
+                    <button class="btn">
+                        <a href="../../index.html" class="menu-button">Home</a>
+                    </button>
+                    <button class="btn">
+                        <a href="./index.html" class="menu-button">Fundamentals</a>
+                    </button>
+            </div>
         </nav>
     </header>
-    <img src="../page1/assets/img/gif 1.gif" alt="wallpaper" class="wallpaper">
-    <main>
-        <div class="div_1">
-            <div class="div-content">
-                <h1>The 4 Fundamentals</h1>
-            </div>
-        </div>
-
-        <div class="desc_1">
-            <div class="funda_1">
-                <img src="../page1/assets/img/1.avif" alt="Desc">
-                <h3>Variable Declaration: Defines a variable and its data type to store values during program execution.
-                </h3>
-            </div>
-            <div class="funda_1">
-                <img src="../page1/assets/img/2.jpg" alt="Desc">
-                <h3>Input and Output: Enables interaction between the program and the user by receiving inputs and displaying outputs.
-                </h3>
-            </div>
-            <div class="funda_1">
-                <img src="../page1/assets/img/3.webp" alt="Product 3">
-                <h3>Conditional Statement: Allows decision-making in the program by executing code based on whether a condition is true or false.</h3>
-            </div>
-            <div class="funda_1">
-                <img src="../page1/assets/img/4.png" alt="Product 3">
-                <h3>Looping Statement: Repeats a block of code multiple times based on a condition or a set number of iterations.</h3>
-            </div>
-        </div>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 OnePlus. All rights reserved.</p>
-    </footer>
+    <video autoplay loop muted plays-inline id="bg-video">
+        <source src="./assets/vid/bg.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <h1>Fundamentals</h1>
+        <p>Click the button:</p>
+        <button onclick="runDemo()">Run</button>
+        <div class="output" id="output"></div>
+    </div>
+    <script src="./assets/js/scripts.js"></script>
 </body>
 </html>

@@ -1,142 +1,154 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
 
-body {
-    font-family: "Dancing Script", serif;
+* {
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
-    color: #171818;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
+body {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
 
-.wallpaper {
+.bg {
     position: fixed;
     top: 0;
     left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     z-index: -1;
-    width: 100%;
-    height: 100vh;
-    filter: brightness(1.1) contrast(1.05);
-    overflow: hidden;
 }
 
 header {
-    font-size: 20px;
-    background-color: #470c0c;
-    color: #585858;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.nav-button {
-    margin: 0 10px;
-}
-
-.button {
-    text-decoration: none;
-    color: #ffffff; /* White text for visibility */
-    padding: 10px 20px;
-    border: 2px solid #4e1818; /* Dark border to match header tone */
-    border-radius: 5px;
-    background-color: #661a1a; /* Dark red background close to header color */
-    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    display: inline-block;
-}
-
-.button:hover {
-    background-color: #802020; /* Slightly lighter tone for hover effect */
-    color: #ffffff; /* Ensure text remains visible */
-    box-shadow: 0 0 10px #802020; /* Subtle glow on hover */
-}
-
-.main {
-    padding: 20px;
-}
-
-.div_1 {
-    position: relative;
-    height: 400px;
-    background-image: url('path/to/your/image.jpg');
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-}
-
-.div-content {
-    color: #e6dcdc;
-    max-width: 600px;
-    padding: 20px;
-}
-
-.div_1 h1 {
-    font-size: 60px;
-    margin-bottom: 10px;
-}
-
-.div_1 p {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.desc_1 {
-    display: flex;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    padding: 20px;
-    margin: 20px auto 40px;
-    background-color: #dbdbdb;
-    border-radius: 8px;
-    width: 90%;
-    max-width: 1200px;
-}
-
-.desc_1 p {
-    font-weight: 200;
-}
-
-.funda_1 {
-    flex: 0 0 auto;
-    width: 80%;
-    max-width: 600px;
-    margin-right: 20px;
-    border: 1px solid #e0e0e0;
-    padding: 10px;
-    transition: transform 0.3s, box-shadow 0.3s;
-    flex-shrink: 0;
-}
-
-.funda_1 img {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 300px;
-    object-fit: cover;
-    display: block;
-    transition: transform 0.3s;
+    padding: 20px;
+}
+
+header .navbar {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    color: #ffffff;
+    padding: 10px 13px;
+    font-size: 2.1rem;
+    font-weight: 600;
+    font-family: "Dancing Script", serif;
+}
+
+.navbar .logo:hover {
+    color: #e9e4e3;
+    transform: scale(1.05);
     border-radius: 10px;
 }
 
-.funda_1:hover img {
-    transform: scale(1.1);
+.logo {
+    background: linear-gradient(currentColor 0 0) var(--p, 100%) 0,
+                linear-gradient(currentColor 0 0) 0 var(--d, 0),
+                linear-gradient(currentColor 0 0) var(--d, 0) 100%,
+                linear-gradient(currentColor 0 0) 100% var(--p, 100%);
+    background-size: var(--d, 0) 3px, 3px var(--d, 0);
+    background-repeat: no-repeat;
+    transition: 0.5s, background-position 0s 0.5s ease-out;
 }
 
-footer {
-    background-color: #333;
+.logo:hover {
+    --d: 100%;
+    --p: 0%;
+}
+
+.menu-links {
+    display: flex;
+    gap: 10px;
+}
+
+.menu-links .menu-button {
+    color: #f7eeee;
+    text-decoration: none;
+    font-family: "Dancing Script", serif;
+}
+
+.menu-links .btn {
+    background: #401b0fcd;
     color: #fff;
+    font-family: "Dancing Script", serif;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    cursor: pointer;
+}
+
+.menu-links .btn:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+
+.menu-links .btn:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
     text-align: center;
-    padding: 20px 0;
-    border-top: 1px solid #e0e0e0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    color: #401b0f;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #401b0f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1d0c06;
+}
+
+.output {
+    margin-top: 20px;
+    padding: 10px;
+    background: #eef;
+    border: 1px solid #401b0f;
+    border-radius: 5px;
 }

@@ -4,25 +4,25 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/Saynosean/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/logo.png" alt="logo" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Fundamentals</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+This webpages is a demonstration of fundamental.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=Saynosean/AWD-Fundamentals)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+[![wakatime](https://wakatime.com/badge/user/9c7b319f-0a4f-4bf8-b099-f9f3aec27c02/project/348c7a34-232e-410e-b7ba-36c85aee7789.svg)](https://wakatime.com/badge/user/9c7b319f-0a4f-4bf8-b099-f9f3aec27c02/project/348c7a34-232e-410e-b7ba-36c85aee7789)
 
 ---
 
@@ -62,17 +62,13 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- AWD-Fundamentals
+- This webpages is a demonstration of fundamental.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -92,23 +88,32 @@ Guiding Question:
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+AWD-Fundamentals
 └─ assets
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
+        └─ logo.png
+|   └─ vid
+|       └─ bg.mp4
 └─ pages
-|  └─ pageName
 |     └─ assets
 |     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |      └─ style.css
 |     |  └─ js
-|     |     └─ script.js
+|     |      └─ script.js
+|     |  └─ vid
+|     |      └─ bg.mp4
+|  └─ Fundamentals
+|     └─ assets
+|     |  └─ css
+|     |      └─ style.css
+|     |  └─ img
+|     |      └─ 1.jpg
+|     |      └─ 2.jpg
+|     |      └─ logo.png
+|     |  └─ vid
+|     |      └─ 1.mp4
 |     └─ index.html
 └─ index.html
 └─ readme.md
@@ -119,4 +124,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Videos, Links for the Videos i used, youtube.com
+Fonts, Fonts i used for this webpage, fonts.google.com|

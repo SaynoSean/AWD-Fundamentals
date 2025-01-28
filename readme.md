@@ -124,5 +124,6 @@ AWD-Fundamentals
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Videos, Links for the Videos i used, youtube.com
-Fonts, Fonts i used for this webpage, fonts.google.com|
+| Github|Projects|http://github.com/Saynosean|
+| Google|Photos,Fonts|Google.com|
+| Youtube|Videos|Youtube.com|
